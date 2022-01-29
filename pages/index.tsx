@@ -10,7 +10,7 @@ const Home: NextPage = () => {
       <header className="w-full fixed z-50 bg-white">
           <nav>
             <div className="flex">
-              <div className="h-20 w-1/4 border-2 border-solid border-black relative">
+              <div className="h-20 w-1/4 relative">
                 <Image src="/logo.png"  layout="fill" objectFit='contain' alt="fwywdロゴ" className='object-left'/>
               </div>
               <ul className="ml-auto  w-1/4 flex justify-between  items-center space-x-4 mr-10">
@@ -29,20 +29,20 @@ const Home: NextPage = () => {
                 <h1 className="text-4xl pl-20 text-left tracking-widest text-white font-bold">メインタイトル</h1>
                 <h2 className="text-2xl pl-20 text-left tracking-widest text-white/75 font-bold">サブタイトル</h2>
             </div>
-          <div className="ml-auto w-2/5 mt-6 mb-6 relative h-5/6 mr-10 border-2 border-solid border-black">
+          <div className="ml-auto w-2/5 mt-6 mb-6 relative h-5/6 mr-10">
             <Image src="/hero.png" layout="fill" objectFit='contain' alt="heroイメージ"/> 
           </div>  
         </div>   
     </section>
 
     <div id="AboutValuesFutureZindex" className="relative z-0">
-      <section id="ABOUT" className="pt-20 -mt-20 pb-10 bg-[url('/bg-about.png')]  w-full h-[570px] border-2 border-solid border-yellow-900 ">
-        <h2 className="text-2xl text-center font-bold text-[#384359] border-2 border-solid border-yellow-900 mb-10">私について <span className="text-lg text-[#008c8d] font-normal">ABOUT</span></h2>
+      <section id="ABOUT" className="pt-20 -mt-20 pb-10 bg-[url('/bg-about.png')]  w-full h-[570px] ">
+        <h2 className="text-2xl text-center font-bold text-[#384359] mb-10">私について <span className="text-lg text-[#008c8d] font-normal">ABOUT</span></h2>
 
         <div className="flex justify-center  space-x-14 mb-20 relative z-40">
-            <div id="hobby" className="w-1/5 border-2 border-solid border-yellow-900">
+            <div id="hobby" className="w-1/5 ">
                 <div className="flex justify-center relative w-auto h-[170px] mb-4">
-                    <Image src="/about-1.png" layout="fill" objectFit='contain' className="w-1/5 border-2 border-solid border-blue-900"/>
+                    <Image src="/about-1.png" layout="fill" objectFit='contain' className="w-1/5"/>
                 </div>
                 <h3 className="text-center text-2xl text-[#008c8d] font-bold mb-4">趣味</h3>
                 <p className="text-[#384359]">
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
                 </p>
             </div>
             
-            <div id="favoriteFood" className="w-1/5 border-2 border-solid border-yellow-900">
+            <div id="favoriteFood" className="w-1/5 ">
                 <div className="flex justify-center relative w-auto h-[170px] mb-4">
                     <Image src="/about-2.png" layout="fill" objectFit='contain' />
                 </div>
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
                 </p>
             </div>
             
-            <div id="personality" className="w-1/5 border-2 border-solid border-yellow-900">
+            <div id="personality" className="w-1/5">
                 <div className="flex justify-center relative w-auto h-[170px] mb-4">
                     <Image src="/about-3.png" layout="fill" objectFit='contain' />
                 </div>
@@ -85,13 +85,13 @@ const Home: NextPage = () => {
       </section>
 
 
-      <section id="SKILLS" className="w-full h-[800px] pt-20 -mt-20 mb-10 pb-28 border-2 border-solid border-black bg-transparent bg-[url('/bg-skills.png')] bg-no-repeat bg-[length:100%_100%] z-30">
+      <section id="SKILLS" className="w-full h-[800px] pt-20 -mt-20 mb-10 pb-28 bg-transparent bg-[url('/bg-skills.png')] bg-no-repeat bg-[length:100%_100%] z-30">
           <div className="inline-flex">
-            <div className="flex w-full h-full border-2 border-solid border-pink-800">
-                <div className="w-2/4 relative border-2 border-solid border-black ml-20">
+            <div className="flex w-full h-full ">
+                <div className="w-2/4 relative ml-20">
                   <Image src="/skill.png" layout="fill" objectFit='contain'/>
                 </div>
-                <div className="ml-10 border-2 border-solid border-gray w-2/4 mr-20">
+                <div className="ml-10 w-2/4 mr-20">
                     <h2 className="text-2xl w-auto font-bold text-[#384359]">スキル <span className="text-lg text-[#008c8d] font-normal">SKILLS</span></h2>
                     <p className="w-2/3 text-[#384359] ">
                         テキストテキストテキストテキスト
@@ -192,10 +192,10 @@ const Home: NextPage = () => {
           <h2 className="text-2xl text-center font-bold text-[#384359]">価値観 <span className="text-lg text-[#008c8d] font-normal">VALUES</span></h2>
           <div className="inline-flex">
             <div className="flex justify-center h-full">
-                <div className="space-x-8 inline-flex w-4/6 h-auto justify-center items-center  bg-white  border-2 border-solid  border-black rounded-lg relative z-20">
-                    <article className="w-1/4 border-2 border-solid border-gray">
+                <div className="space-x-8 inline-flex w-4/6 h-auto justify-center items-center  bg-white rounded-lg relative z-20">
+                    <article className="w-1/4">
                         <div className="flex justify-center h-[200px] relative mb-8">
-                            <Image src="/value1.png" layout="fill" objectFit='contain' className="border-2 border-solid border-gray"/>
+                            <Image src="/value1.png" layout="fill" objectFit='contain' className="w-1/2"/>
                         </div>
                         
                         <h3 className="text-[#384359] text-center mb-4 text-lg font-semibold">価値観01</h3>
@@ -208,9 +208,9 @@ const Home: NextPage = () => {
                         </p>
                     </article>
                     <div className='h-5/6 border-r-2 border-[#c5eaea] border-solid'></div>
-                    <article className="w-1/4 border-2 border-solid border-gray">
+                    <article className="w-1/4">
                         <div className="flex justify-center h-[200px] relative mb-8">
-                            <Image src="/value2.png" layout="fill" objectFit='contain' className="w-1/2 border-2 border-solid border-gray"/>
+                            <Image src="/value2.png" layout="fill" objectFit='contain' className="w-1/2"/>
                         </div>
                         <h3 className="text-[#384359] text-center mb-4 text-lg font-semibold">価値観02</h3>
                         <p className="text-[#384359]">
@@ -222,9 +222,9 @@ const Home: NextPage = () => {
                         </p>
                     </article>
                     <div className='h-5/6 border-r-2 border-[#c5eaea] border-solid'></div>
-                    <article className="w-1/4 border-2 border-solid border-gray">
+                    <article className="w-1/4">
                         <div className="flex justify-center h-[200px] relative mb-8">
-                            <Image src="/value3.png" layout="fill" objectFit='contain' className="w-1/2 border-2 border-solid border-gray"/>
+                            <Image src="/value3.png" layout="fill" objectFit='contain' className="w-1/2"/>
                         </div>
                         <h3 className="text-[#384359] text-center text-lg mb-4 font-semibold">価値観03</h3>
                         <p className="text-[#384359]">
@@ -242,9 +242,9 @@ const Home: NextPage = () => {
       </section>
 
       <section className="z-10 h-[570px] w-full  relative flex space-x-8 justify-center items-center pt-40 -mt-32 bg-[url('/bg-future.png')] bg-[length:100%_100%] pb-10">
-          <div className=" border-2 border-solid border-gray w-1/3 relative">
-              <h2 id="FUTURE" className=" pt-20 -mt-20 text-2xl font-bold text-[#384359] border-2 border-solid border-gray">3年後にやりたいこと <span className="text-lg text-[#008c8d] font-normal">FUTURE</span></h2>
-              <p className="text-[#384359] border-2 border-solid border-gray">
+          <div className="w-1/3 relative">
+              <h2 id="FUTURE" className=" pt-20 -mt-20 text-2xl font-bold text-[#384359]">3年後にやりたいこと <span className="text-lg text-[#008c8d] font-normal">FUTURE</span></h2>
+              <p className="text-[#384359]">
                   テキストテキストテキストテキスト
                   テキストテキストテキストテキスト
                   テキストテキストテキストテキスト
@@ -257,8 +257,8 @@ const Home: NextPage = () => {
                   テキストテキストテキストテキスト
               </p>
           </div>
-          <div className="relative h-[275px] w-[500px]  border-2 border-solid border-black ml-20">
-            <Image src="/future.png" layout="fill" objectFit='contain' className=" border-2 border-solid border-gray"/>
+          <div className="relative h-[275px] w-[500px] ml-20">
+            <Image src="/future.png" layout="fill" objectFit='contain'/>
           </div>
       </section>
     </div>

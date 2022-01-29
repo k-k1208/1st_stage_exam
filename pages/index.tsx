@@ -85,7 +85,7 @@ const Home: NextPage = () => {
       </section>
 
 
-      <section id="SKILLS" className="w-full h-[570px] pt-20 -mt-20 mb-10 pb-28 border-2 border-solid border-black bg-transparent bg-[url('/bg-skills.png')] bg-no-repeat bg-[length:100%_100%] z-30">
+      <section id="SKILLS" className="w-full h-[800px] pt-20 -mt-20 mb-10 pb-28 border-2 border-solid border-black bg-transparent bg-[url('/bg-skills.png')] bg-no-repeat bg-[length:100%_100%] z-30">
           <div className="flex w-full h-full border-2 border-solid border-pink-800">
               <div className="w-2/4 relative border-2 border-solid border-black ml-20">
                 <Image src="/skill.png" layout="fill" objectFit='contain'/>
@@ -104,7 +104,82 @@ const Home: NextPage = () => {
                       テキストテキストテキストテキスト
                       テキストテキストテキストテキスト
                   </p>
-                  <p>progressbar</p>
+                  <div className='bg-white rounded-lg mt-4'>
+                    <div className="relative pt-8">
+                      <div className="mb-2 items-center justify-between ml-10">
+                        <div>
+                          <span className="text-lg inline-block py-1 uppercase rounded-full text-[#008c8d]">
+                            SKILLSKILL
+                          </span>
+                        </div>
+                          <div className="flex relative items-center">
+                            <div className="overflow-hidden h-[18px] w-3/4 flex rounded bg-teal-500/40 relative">
+                              <div style={{ width: "40%" }} className="shadow-none flex flex-col whitespace-nowrap text-white justify-center bg-teal-500"></div>
+                            </div>
+                            <span className="h-full ml-4 text-lg inline-block text-[#008c8d]">
+                              40%
+                            </span>
+                          </div>
+                      </div>
+                      
+                    </div>
+                    <div className="relative pt-1">
+                      <div className="mb-2 items-center justify-between ml-10">
+                        <div>
+                          <span className="text-lg inline-block py-1 uppercase rounded-full text-[#008c8d]">
+                            SKILLSKILL
+                          </span>
+                        </div>
+                          <div className="flex relative items-center">
+                            <div className="overflow-hidden h-[18px] w-3/4 flex rounded bg-teal-500/40 relative">
+                              <div style={{ width: "40%" }} className="shadow-none flex flex-col whitespace-nowrap text-white justify-center bg-teal-500"></div>
+                            </div>
+                            <span className="h-full ml-4 text-lg inline-block text-[#008c8d]">
+                              40%
+                            </span>
+                          </div>
+                      </div>
+                      
+                    </div>
+                    <div className="relative pt-1">
+                      <div className="mb-2 items-center justify-between ml-10">
+                        <div>
+                          <span className="text-lg inline-block py-1 uppercase rounded-full text-[#008c8d]">
+                            SKILLSKILL
+                          </span>
+                        </div>
+                          <div className="flex relative items-center">
+                            <div className="overflow-hidden h-[18px] w-3/4 flex rounded bg-teal-500/40 relative">
+                              <div style={{ width: "40%" }} className="shadow-none flex flex-col whitespace-nowrap text-white justify-center bg-teal-500"></div>
+                            </div>
+                            <span className="h-full ml-4 text-lg inline-block text-[#008c8d]">
+                              40%
+                            </span>
+                          </div>
+                      </div>
+                      
+                    </div>
+                    <div className="relative pt-1 pb-8">
+                      <div className="mb-2 items-center justify-between ml-10">
+                        <div>
+                          <span className="text-lg inline-block py-1 uppercase rounded-full text-[#008c8d]">
+                            SKILLSKILL
+                          </span>
+                        </div>
+                          <div className="flex relative items-center">
+                            <div className="overflow-hidden h-[18px] w-3/4 flex rounded bg-teal-500/40 relative">
+                              <div style={{ width: "40%" }} className="shadow-none flex flex-col whitespace-nowrap text-white justify-center bg-teal-500"></div>
+                            </div>
+                            <span className="h-full ml-4 text-lg inline-block text-[#008c8d]">
+                              40%
+                            </span>
+                          </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                    
+                  
               </div>
           </div>
       </section>

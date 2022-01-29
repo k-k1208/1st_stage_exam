@@ -35,7 +35,7 @@ const Home: NextPage = () => {
         </div>   
     </section>
 
-    <div id="valuesFutureZindex" className="relative z-0">
+    <div id="AboutValuesFutureZindex" className="relative z-0">
       <section id="ABOUT" className="pt-20 -mt-20 pb-10 bg-[url('/bg-about.png')]  w-full h-[570px] border-2 border-solid border-yellow-900 ">
         <h2 className="text-2xl text-center font-bold text-[#384359] border-2 border-solid border-yellow-900 mb-10">私について <span className="text-lg text-[#008c8d] font-normal">ABOUT</span></h2>
 
@@ -86,154 +86,159 @@ const Home: NextPage = () => {
 
 
       <section id="SKILLS" className="w-full h-[800px] pt-20 -mt-20 mb-10 pb-28 border-2 border-solid border-black bg-transparent bg-[url('/bg-skills.png')] bg-no-repeat bg-[length:100%_100%] z-30">
-          <div className="flex w-full h-full border-2 border-solid border-pink-800">
-              <div className="w-2/4 relative border-2 border-solid border-black ml-20">
-                <Image src="/skill.png" layout="fill" objectFit='contain'/>
-              </div>
-              <div className="ml-10 border-2 border-solid border-gray w-2/4 mr-20">
-                  <h2 className="text-2xl w-auto font-bold text-[#384359]">スキル <span className="text-lg text-[#008c8d] font-normal">SKILLS</span></h2>
-                  <p className="w-2/3 text-[#384359] ">
-                      テキストテキストテキストテキスト
-                      テキストテキストテキストテキスト
-                      テキストテキストテキストテキスト
-                      テキストテキストテキストテキスト
-                      テキストテキストテキストテキスト
-                      テキストテキストテキストテキスト
-                      テキストテキストテキストテキスト
-                      テキストテキストテキストテキスト
-                      テキストテキストテキストテキスト
-                      テキストテキストテキストテキスト
-                  </p>
-                  <div className='bg-white rounded-lg mt-4'>
-                    <div className="relative pt-8">
-                      <div className="mb-2 items-center justify-between ml-10">
-                        <div>
-                          <span className="text-lg inline-block py-1 uppercase rounded-full text-[#008c8d]">
-                            SKILLSKILL
-                          </span>
-                        </div>
-                          <div className="flex relative items-center">
-                            <div className="overflow-hidden h-[18px] w-3/4 flex rounded bg-teal-500/40 relative">
-                              <div style={{ width: "40%" }} className="shadow-none flex flex-col whitespace-nowrap text-white justify-center bg-teal-500"></div>
-                            </div>
-                            <span className="h-full ml-4 text-lg inline-block text-[#008c8d]">
-                              40%
+          <div className="inline-flex">
+            <div className="flex w-full h-full border-2 border-solid border-pink-800">
+                <div className="w-2/4 relative border-2 border-solid border-black ml-20">
+                  <Image src="/skill.png" layout="fill" objectFit='contain'/>
+                </div>
+                <div className="ml-10 border-2 border-solid border-gray w-2/4 mr-20">
+                    <h2 className="text-2xl w-auto font-bold text-[#384359]">スキル <span className="text-lg text-[#008c8d] font-normal">SKILLS</span></h2>
+                    <p className="w-2/3 text-[#384359] ">
+                        テキストテキストテキストテキスト
+                        テキストテキストテキストテキスト
+                        テキストテキストテキストテキスト
+                        テキストテキストテキストテキスト
+                        テキストテキストテキストテキスト
+                        テキストテキストテキストテキスト
+                        テキストテキストテキストテキスト
+                        テキストテキストテキストテキスト
+                        テキストテキストテキストテキスト
+                        テキストテキストテキストテキスト
+                    </p>
+                    <div className='bg-white rounded-lg mt-4'>
+                      <div className="relative pt-8">
+                        <div className="mb-2 items-center justify-between ml-10">
+                          <div>
+                            <span className="text-lg inline-block py-1 uppercase rounded-full text-[#008c8d]">
+                              SKILLSKILL
                             </span>
                           </div>
-                      </div>
-                      
-                    </div>
-                    <div className="relative pt-1">
-                      <div className="mb-2 items-center justify-between ml-10">
-                        <div>
-                          <span className="text-lg inline-block py-1 uppercase rounded-full text-[#008c8d]">
-                            SKILLSKILL
-                          </span>
-                        </div>
-                          <div className="flex relative items-center">
-                            <div className="overflow-hidden h-[18px] w-3/4 flex rounded bg-teal-500/40 relative">
-                              <div style={{ width: "40%" }} className="shadow-none flex flex-col whitespace-nowrap text-white justify-center bg-teal-500"></div>
+                            <div className="flex relative items-center">
+                              <div className="overflow-hidden h-[18px] w-3/4 flex rounded bg-teal-500/40 relative">
+                                <div style={{ width: "40%" }} className="shadow-none flex flex-col whitespace-nowrap text-white justify-center bg-teal-500"></div>
+                              </div>
+                              <span className="h-full ml-4 text-lg inline-block text-[#008c8d]">
+                                40%
+                              </span>
                             </div>
-                            <span className="h-full ml-4 text-lg inline-block text-[#008c8d]">
-                              40%
+                        </div>
+                        
+                      </div>
+                      <div className="relative pt-1">
+                        <div className="mb-2 items-center justify-between ml-10">
+                          <div>
+                            <span className="text-lg inline-block py-1 uppercase rounded-full text-[#008c8d]">
+                              SKILLSKILL
                             </span>
                           </div>
-                      </div>
-                      
-                    </div>
-                    <div className="relative pt-1">
-                      <div className="mb-2 items-center justify-between ml-10">
-                        <div>
-                          <span className="text-lg inline-block py-1 uppercase rounded-full text-[#008c8d]">
-                            SKILLSKILL
-                          </span>
-                        </div>
-                          <div className="flex relative items-center">
-                            <div className="overflow-hidden h-[18px] w-3/4 flex rounded bg-teal-500/40 relative">
-                              <div style={{ width: "40%" }} className="shadow-none flex flex-col whitespace-nowrap text-white justify-center bg-teal-500"></div>
+                            <div className="flex relative items-center">
+                              <div className="overflow-hidden h-[18px] w-3/4 flex rounded bg-teal-500/40 relative">
+                                <div style={{ width: "40%" }} className="shadow-none flex flex-col whitespace-nowrap text-white justify-center bg-teal-500"></div>
+                              </div>
+                              <span className="h-full ml-4 text-lg inline-block text-[#008c8d]">
+                                40%
+                              </span>
                             </div>
-                            <span className="h-full ml-4 text-lg inline-block text-[#008c8d]">
-                              40%
+                        </div>
+                        
+                      </div>
+                      <div className="relative pt-1">
+                        <div className="mb-2 items-center justify-between ml-10">
+                          <div>
+                            <span className="text-lg inline-block py-1 uppercase rounded-full text-[#008c8d]">
+                              SKILLSKILL
                             </span>
                           </div>
-                      </div>
-                      
-                    </div>
-                    <div className="relative pt-1 pb-8">
-                      <div className="mb-2 items-center justify-between ml-10">
-                        <div>
-                          <span className="text-lg inline-block py-1 uppercase rounded-full text-[#008c8d]">
-                            SKILLSKILL
-                          </span>
-                        </div>
-                          <div className="flex relative items-center">
-                            <div className="overflow-hidden h-[18px] w-3/4 flex rounded bg-teal-500/40 relative">
-                              <div style={{ width: "40%" }} className="shadow-none flex flex-col whitespace-nowrap text-white justify-center bg-teal-500"></div>
+                            <div className="flex relative items-center">
+                              <div className="overflow-hidden h-[18px] w-3/4 flex rounded bg-teal-500/40 relative">
+                                <div style={{ width: "40%" }} className="shadow-none flex flex-col whitespace-nowrap text-white justify-center bg-teal-500"></div>
+                              </div>
+                              <span className="h-full ml-4 text-lg inline-block text-[#008c8d]">
+                                40%
+                              </span>
                             </div>
-                            <span className="h-full ml-4 text-lg inline-block text-[#008c8d]">
-                              40%
+                        </div>
+                        
+                      </div>
+                      <div className="relative pt-1 pb-8">
+                        <div className="mb-2 items-center justify-between ml-10">
+                          <div>
+                            <span className="text-lg inline-block py-1 uppercase rounded-full text-[#008c8d]">
+                              SKILLSKILL
                             </span>
                           </div>
+                            <div className="flex relative items-center">
+                              <div className="overflow-hidden h-[18px] w-3/4 flex rounded bg-teal-500/40 relative">
+                                <div style={{ width: "40%" }} className="shadow-none flex flex-col whitespace-nowrap text-white justify-center bg-teal-500"></div>
+                              </div>
+                              <span className="h-full ml-4 text-lg inline-block text-[#008c8d]">
+                                40%
+                              </span>
+                            </div>
+                        </div>
+                        
                       </div>
-                      
                     </div>
-                  </div>
+                      
                     
-                  
-              </div>
+                </div>
+            </div>
           </div>
+          
       </section>
     
 
       <section id="VALUES" className="w-full h-[570px] pt-20 -mt-20 pb-10">
           <h2 className="text-2xl text-center font-bold text-[#384359]">価値観 <span className="text-lg text-[#008c8d] font-normal">VALUES</span></h2>
+          <div className="inline-flex">
+            <div className="flex justify-center h-full">
+                <div className="space-x-14 inline-flex w-4/6 h-auto justify-center  bg-white  border-2 border-solid  border-black rounded-lg relative z-20">
+                    <article className="w-1/4 border-2 border-solid border-gray">
+                        <div className="flex justify-center h-[200px] relative mb-8">
+                            <Image src="/value1.png" layout="fill" objectFit='contain' className="border-2 border-solid border-gray"/>
+                        </div>
+                        
+                        <h3 className="text-[#384359] text-center mb-8">価値観01</h3>
+                        <p className="text-[#384359]">
+                            テキストテキストテキストテキスト
+                            テキストテキストテキストテキスト
+                            テキストテキストテキストテキスト
+                            テキストテキストテキストテキスト
+                            テキストテキストテキストテキスト
+                        </p>
+                    </article>
+                    
+                    <article className="w-1/4 border-2 border-solid border-gray">
+                        <div className="flex justify-center h-[200px] relative mb-8">
+                            <Image src="/value2.png" layout="fill" objectFit='contain' className="w-1/2 border-2 border-solid border-gray"/>
+                        </div>
+                        <h3 className="text-[#384359] text-center mb-8">価値観02</h3>
+                        <p className="text-[#384359]">
+                            テキストテキストテキストテキスト
+                            テキストテキストテキストテキスト
+                            テキストテキストテキストテキスト
+                            テキストテキストテキストテキスト
+                            テキストテキストテキストテキスト
+                        </p>
+                    </article>
 
-          <div className="flex justify-center h-full">
-              <div className="space-x-14 inline-flex w-4/6 h-auto justify-center  bg-white  border-2 border-solid  border-black rounded-lg relative z-20">
-                  <article className="w-1/4 border-2 border-solid border-gray">
-                      <div className="flex justify-center h-[200px] relative mb-8">
-                          <Image src="/value1.png" layout="fill" objectFit='contain' className="border-2 border-solid border-gray"/>
-                      </div>
-                      
-                      <h3 className="text-[#384359] text-center mb-8">価値観01</h3>
-                      <p className="text-[#384359]">
-                          テキストテキストテキストテキスト
-                          テキストテキストテキストテキスト
-                          テキストテキストテキストテキスト
-                          テキストテキストテキストテキスト
-                          テキストテキストテキストテキスト
-                      </p>
-                  </article>
-                  
-                  <article className="w-1/4 border-2 border-solid border-gray">
-                      <div className="flex justify-center h-[200px] relative mb-8">
-                          <Image src="/value2.png" layout="fill" objectFit='contain' className="w-1/2 border-2 border-solid border-gray"/>
-                      </div>
-                      <h3 className="text-[#384359] text-center mb-8">価値観02</h3>
-                      <p className="text-[#384359]">
-                          テキストテキストテキストテキスト
-                          テキストテキストテキストテキスト
-                          テキストテキストテキストテキスト
-                          テキストテキストテキストテキスト
-                          テキストテキストテキストテキスト
-                      </p>
-                  </article>
-
-                  <article className="w-1/4 border-2 border-solid border-gray">
-                      <div className="flex justify-center h-[200px] relative mb-8">
-                          <Image src="/value3.png" layout="fill" objectFit='contain' className="w-1/2 border-2 border-solid border-gray"/>
-                      </div>
-                      <h3 className="text-[#384359] text-center mb-8">価値観03</h3>
-                      <p className="text-[#384359]">
-                          テキストテキストテキストテキスト
-                          テキストテキストテキストテキスト
-                          テキストテキストテキストテキスト
-                          テキストテキストテキストテキスト
-                          テキストテキストテキストテキスト
-                      </p>
-                  </article>
-              </div>
-          </div>        
+                    <article className="w-1/4 border-2 border-solid border-gray">
+                        <div className="flex justify-center h-[200px] relative mb-8">
+                            <Image src="/value3.png" layout="fill" objectFit='contain' className="w-1/2 border-2 border-solid border-gray"/>
+                        </div>
+                        <h3 className="text-[#384359] text-center mb-8">価値観03</h3>
+                        <p className="text-[#384359]">
+                            テキストテキストテキストテキスト
+                            テキストテキストテキストテキスト
+                            テキストテキストテキストテキスト
+                            テキストテキストテキストテキスト
+                            テキストテキストテキストテキスト
+                        </p>
+                    </article>
+                </div>
+            </div> 
+          </div>
+                 
       </section>
 
       <section className="z-10 h-[570px] w-full  relative flex space-x-8 justify-center items-center pt-40 -mt-32 bg-[url('/bg-future.png')] bg-[length:100%_100%] pb-10">

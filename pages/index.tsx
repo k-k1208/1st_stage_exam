@@ -192,13 +192,13 @@ const Home: NextPage = () => {
           <h2 className="text-2xl text-center font-bold text-[#384359]">価値観 <span className="text-lg text-[#008c8d] font-normal">VALUES</span></h2>
           <div className="inline-flex">
             <div className="flex justify-center h-full">
-                <div className="space-x-14 inline-flex w-4/6 h-auto justify-center  bg-white  border-2 border-solid  border-black rounded-lg relative z-20">
+                <div className="space-x-8 inline-flex w-4/6 h-auto justify-center items-center  bg-white  border-2 border-solid  border-black rounded-lg relative z-20">
                     <article className="w-1/4 border-2 border-solid border-gray">
                         <div className="flex justify-center h-[200px] relative mb-8">
                             <Image src="/value1.png" layout="fill" objectFit='contain' className="border-2 border-solid border-gray"/>
                         </div>
                         
-                        <h3 className="text-[#384359] text-center mb-8">価値観01</h3>
+                        <h3 className="text-[#384359] text-center mb-4 text-lg font-semibold">価値観01</h3>
                         <p className="text-[#384359]">
                             テキストテキストテキストテキスト
                             テキストテキストテキストテキスト
@@ -207,12 +207,12 @@ const Home: NextPage = () => {
                             テキストテキストテキストテキスト
                         </p>
                     </article>
-                    
+                    <div className='h-5/6 border-r-2 border-[#c5eaea] border-solid'></div>
                     <article className="w-1/4 border-2 border-solid border-gray">
                         <div className="flex justify-center h-[200px] relative mb-8">
                             <Image src="/value2.png" layout="fill" objectFit='contain' className="w-1/2 border-2 border-solid border-gray"/>
                         </div>
-                        <h3 className="text-[#384359] text-center mb-8">価値観02</h3>
+                        <h3 className="text-[#384359] text-center mb-4 text-lg font-semibold">価値観02</h3>
                         <p className="text-[#384359]">
                             テキストテキストテキストテキスト
                             テキストテキストテキストテキスト
@@ -221,12 +221,12 @@ const Home: NextPage = () => {
                             テキストテキストテキストテキスト
                         </p>
                     </article>
-
+                    <div className='h-5/6 border-r-2 border-[#c5eaea] border-solid'></div>
                     <article className="w-1/4 border-2 border-solid border-gray">
                         <div className="flex justify-center h-[200px] relative mb-8">
                             <Image src="/value3.png" layout="fill" objectFit='contain' className="w-1/2 border-2 border-solid border-gray"/>
                         </div>
-                        <h3 className="text-[#384359] text-center mb-8">価値観03</h3>
+                        <h3 className="text-[#384359] text-center text-lg mb-4 font-semibold">価値観03</h3>
                         <p className="text-[#384359]">
                             テキストテキストテキストテキスト
                             テキストテキストテキストテキスト
@@ -265,7 +265,7 @@ const Home: NextPage = () => {
 
     <footer className="text-center bg-[#262c3a] h-[405px]">
       <div className="pt-10">
-        <small className="text-white">CREATED BY <span className="text-lg">名前 太郎</span></small>
+        <small className="text-white">CREATED BY  <span className="text-lg font-semibold">名前 太郎</span></small>
           <div className="flex mt-10 mb-10 relative h-[120px]">
               <Image src="/logo_white.png" layout="fill" objectFit='contain'/>
           </div>

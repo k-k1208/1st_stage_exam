@@ -10,10 +10,10 @@ const Home: NextPage = () => {
       <header className="w-full fixed z-50 bg-white">
           <nav>
             <div className="flex sp:block">
-              <div className="h-20 w-1/4 relative  ml-[60px] sp:w-1/3 sp:ml-[33.3%]">
-              <Link href="/#FV"><a><Image src="/logo.png" quality={100}  layout="fill" objectFit='contain' alt="fwywdロゴ" className='object-left'/></a></Link>
+              <div className="h-20 w-1/4 relative  ml-[60px] sp:w-[30%] sp:mx-[35%] sp:justify-between">
+                <Link href="/#FV"><a><Image src="/logo.png" quality={100}  layout="fill" objectFit='contain' alt="fwywdロゴ" className='object-left'/></a></Link>
               </div>
-              <ul className="ml-auto  w-1/4 flex justify-between  items-center space-x-4 mr-[80px] sp:w-[90%] sp:mx-[5%] sp:justify-around sp:bottom-0">
+              <ul className="ml-auto  w-auto flex justify-between  items-center space-x-4 mr-[80px] sp:w-[90%] sp:mx-[5%] sp:justify-around sp:mb-0">
                   <li className="text-lg hover:underline"><Link href="/#ABOUT"><a className='text-[#008c8d]'>ABOUT</a></Link></li>
                   <li className="text-lg hover:underline"><Link href="/#SKILLS"><a className='text-[#008c8d]'>SKILLS</a></Link></li>
                   <li className="text-lg hover:underline"><Link href="/#VALUES"><a className='text-[#008c8d]'>VALUES</a></Link></li>
@@ -29,14 +29,14 @@ const Home: NextPage = () => {
               <h1 className="text-4xl pl-20 text-left tracking-widest text-white font-bold sp:w-full sp:text-center sp:pl-0">メインタイトル</h1>
               <h2 className="text-2xl pl-20 mt-4 text-left tracking-widest text-white/75 font-bold sp:w-full sp:text-center sp:pl-0">サブタイトル</h2>
           </div>
-          <div className="ml-auto w-2/5 mt-6 mb-6 relative h-5/6 mr-10 sp:w-[70%] sp:h-[45%]  sp:m-[15%] sp:absolute sp:bottom-0 sp:px-10 sp:justify-center">
+          <div className="ml-auto w-2/5 mt-6 mb-6 relative h-5/6 mr-10 sp:w-[70%] sp:h-[45%]  sp:mx-[15%] sp:absolute sp:bottom-0 sp:px-10 sp:justify-center">
             <Image src="/hero.png" quality={100} layout="fill" objectFit='contain' alt="heroイメージ"/> 
           </div>  
         </div>   
     </section>
 
     <div id="AboutValuesFutureZindex" className="relative z-0">
-      <section id="ABOUT" className="pt-20 -mt-20 pb-10 bg-[url('/bg-about.png')] bg-no-repeat bg-[length:100%_100%] w-full aspect-[5/3] sp:aspect-[1/3] sp:bg-white sp:bg-none sp:pt-[108px] sp:-mt-[108px]">
+      <section id="ABOUT" className="pt-20 -mt-20 pb-10 bg-[url('/bg-about.png')] bg-no-repeat bg-[length:100%_100%] w-full max-h-fit sp:max-h-fit sp:bg-white sp:bg-none sp:pt-[108px] sp:-mt-[108px]">
         <h2 className="text-2xl text-center font-bold text-[#384359] mb-20 sp:mb-[10%]">私について <span className="text-lg text-[#008c8d] font-normal sp:block">ABOUT</span></h2>
 
         <div className="flex justify-center  space-x-14 mb-20 relative z-40 sp:block sp:space-x-[15%]">
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
       </section>
 
 
-      <section id="SKILLS" className="w-full h-[880px] pt-20 -mt-40 mb-10 pb-28 bg-transparent bg-[url('/bg-skills.png')] bg-no-repeat bg-[length:100%_100%] z-30 sp:bg-[url('/bg-skills-sp.png')] sp:w-full sp:h-auto sp:aspect-[3/9] sp:pt-[108px] sp:-mt-[108px]">
+      <section id="SKILLS" className="w-full max-h-fit pt-20 -mt-40 mb-10 pb-28 bg-transparent bg-[url('/bg-skills.png')] bg-no-repeat bg-[length:100%_100%] z-30 sp:bg-[url('/bg-skills-sp.png')] sp:w-full sp:h-auto sp:max-h-fit sp:pt-[108px] sp:-mt-[108px]">
           <div className="inline-flex">
             <div className="flex w-full h-full sp:flex-col">
                 <div id="skill_image" className="w-2/4 relative ml-20 -mt-10 sp:hidden">
@@ -192,7 +192,7 @@ const Home: NextPage = () => {
       </section>
     
 
-      <section id="VALUES" className="w-full h-[800px] pt-20 -mt-20 pb-10 sp:h-auto sp:aspect-[1/3] sp:pt-[108px] sp:-mt-[108px]">
+      <section id="VALUES" className="w-full max-h-fit pt-20 -mt-20 pb-10 sp:h-auto sp:max-h-fit sp:pt-[108px] sp:-mt-[108px]">
           <h2 className="text-2xl text-center font-bold text-[#384359] mb-20">価値観 <span className="text-lg text-[#008c8d] font-normal sp:block">VALUES</span></h2>
           <div className="inline-flex">
             <div className="flex justify-center h-full sp:flex-col">
@@ -245,7 +245,7 @@ const Home: NextPage = () => {
                  
       </section>
 
-      <section className="z-10 h-[570px] w-full  relative flex space-x-8 justify-center items-center pt-40 -mt-32 bg-[url('/bg-future.png')] bg-[length:100%_100%] pb-10 sp:w-full sp:h-auto sp:aspect-[2/3] sp:bg-[url('/bg-future-sp.png')] sp:bg-no-repeat sp:bg-[length:100%_100%] sp:inline-block sp:space-x-0 sp:pb-0">
+      <section className="z-10 max-h-fit w-full  relative flex space-x-8 justify-center items-center pt-40 -mt-32 bg-[url('/bg-future.png')] bg-[length:100%_100%] pb-10 sp:w-full sp:h-auto sp:max-h-fit sp:bg-[url('/bg-future-sp.png')] sp:bg-no-repeat sp:bg-[length:100%_100%] sp:inline-block sp:space-x-0 sp:pb-0">
           <div className="w-1/3 relative sp:w-full">
               <h2 id="FUTURE" className=" pt-20 -mt-20 mb-4 text-2xl font-bold text-[#384359] sp:w-full sp:text-center sp:pt-[108px] sp:-mt-[108px]">3年後にやりたいこと <span className="text-lg text-[#008c8d] font-normal sp:block">FUTURE</span></h2>
               <p className="text-[#384359] sp:mx-[5%]">
@@ -261,7 +261,7 @@ const Home: NextPage = () => {
                   テキストテキストテキストテキスト
               </p>
           </div>
-          <div className="relative h-[275px] w-[500px] ml-20 mt-[110px] sp:mx-0 sp:w-full sp:h-auto sp:aspect-[480/251] sp:mt-[5%]">
+          <div className="relative h-[275px] w-[500px] ml-20 mt-[110px] sp:mx-0 sp:w-full sp:h-auto sp:aspect-[480/251] sp:mt-[5%] sp:mb-0">
             <Image src="/future.png" quality={100} layout="fill" objectFit='contain'/>
           </div>
       </section>

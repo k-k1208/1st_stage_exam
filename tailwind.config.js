@@ -9,7 +9,7 @@ module.exports = {
   
       'tb': {'min': '600px', 'max': '1023px'},//768pxで確認
   
-      'sp': {'max': '320px', 'max': '599px'},//375pxで確認
+      'sp': {'max': '320px', 'max': '700px'},//375pxで確認
     }
   },
   plugins: [],
